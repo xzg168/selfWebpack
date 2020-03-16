@@ -1,0 +1,45 @@
+.appContent {
+  flex: 1;
+  padding: 10px;
+  height: calc(100% - 65px);
+  /* height: calc(100% - 100px); */
+}
+
+.ant-layout-content {
+  overflow: hidden !important;
+}
+
+.nav-header {
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  /* border-right: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5; */
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.logo-title p {
+  margin-bottom: 0;
+}
+
+.ant-layout-sider-collapsed .nav-header {
+  width: 80px;
+}
+
+.ant-layout-sider-collapsed .nav-header .logo-title {
+  display: none;
+}
+
+.header-layout {
+  display: flex;
+  background: rgb(255, 255, 255) !important;
+  padding: 0px 20px;
+  align-items: center;
+}

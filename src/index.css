@@ -1,0 +1,11 @@
+body {
+    height: 100%;
+    display: flex;
+    flex: 1;
+}
+#root {
+    flex: 1;
+}
+#root > .ant-layout {
+height: 100%;
+}
